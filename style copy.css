@@ -1,0 +1,401 @@
+/*
+THEME NAME: Abredatos
+THEME URI: http://rubiqube.com
+DESCRIPTION: Empty Canvas v1.0 : Simple, minimalistic theme, ideal for corporate blogs or creating more complex designs
+VERSION: 1.0
+AUTHOR: <a href="http://www.rubiqube.com">Adrian Diaconescu</a>
+AUTHOR URI: http://www.rubiqube.com
+*/
+
+@import "reset.css";
+
+body {
+	background: #FAFAFA;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #585858;
+}
+
+a {
+	color: #E95E0D; /*#464646;*/
+        font-weight:bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: 700;
+}
+
+hr {
+	border: none 0;
+	border-bottom: 1px solid #E0E0E0;
+	height: 1px;
+	margin: 10px 0;
+}
+
+blockquote {
+	font-style: italic;
+	background: url(images/quotes.gif) no-repeat top left;
+	background-position: 12px 12px;
+	color: #595959;
+	margin: 5px 0;
+	padding: 8px 15px 8px 60px;
+}
+
+#wrapper {
+	width: 900px;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+#header {
+	overflow: hidden;
+	width: 880px;
+	border-bottom: 3px solid #EFEFEF;
+	border-top: 1px solid #EFEFEF;
+	margin: 0 auto;
+}
+
+#logo {
+	font-size: 250%;
+	margin: 33px 0 0 30px;
+	font-weight: bold;
+background:transparent url(http://www.bienaventurado.net/abredatoslogo/abredatos-logo.png) no-repeat scroll -383px -397px;
+
+}
+
+#logo a {
+	color: #333333;
+height:80px;
+width:280px;
+display:block;
+}
+
+#logo a span {
+display:none;
+}
+
+#description {
+	font-size: 130%;
+	color: #38393B;
+	margin: 24px 0 33px 30px;
+}
+
+#description p {
+  margin:15px 0
+}
+
+#description p.main_description {
+  font-size:142%;
+  line-height:136%
+}
+
+#description p.secondary_description {
+  font-size:106.5%;
+  line-height:155%
+}
+
+#description strong {
+  color:#E95E0D;
+}
+
+#menu {
+	width: 880px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#menu ul li {
+	float: left;
+	text-transform: uppercase;
+	font-size: 90%;
+	padding: 10px;
+}
+
+#menu ul li a {
+	color: #666666;
+}
+
+#container {
+	width: 840px;
+	overflow: hidden;
+	margin: 25px auto;
+}
+
+#content {
+	float: left;
+	width: 510px;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+.post-title {
+	font-size: 200%;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+.post-title a {
+	color: #333333;
+}
+
+.page-subtitle {
+	font-weight: 700;
+	color: #CCC;
+	font-size: 90%;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #EFEFEF;
+	margin-bottom: 15px;
+}
+
+.post-meta {
+	font-size: 85%;
+	color: #999;
+	margin-top: 5px;
+}
+
+.post-meta a {
+	color: #666666;
+}
+
+.post-comments {
+	float: right;
+	background: url(images/cbubble_left.gif) no-repeat top left;
+	padding: 3px 0 7px 7px;
+}
+
+.post-comments a {
+	background: url(images/cbubble_right.gif) no-repeat top right;
+	padding: 3px 7px 7px 0;
+	color: #FFFFFF;
+}
+
+.post-comments a:hover {
+	color: #FFFFFF;
+}
+
+.post-content {
+	margin-top: 15px;
+}
+
+.post-content h2 {
+	font-size: 140%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #EFEFEF;
+	padding: 10px 0 5px;
+}
+
+.post-content h3 {
+	font-size: 110%;
+	font-weight: 700;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #EFEFEF;
+	padding: 10px 0 5px;
+}
+
+.post-content p {
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+.post-content img.alignnone {
+	background: #FFF;
+	border: 1px solid #EFEFEF;
+	padding: 4px;
+}
+
+.post-content img.alignleft {
+	float: left;
+	border: 1px solid #EFEFEF;
+	margin: 0 25px 15px 0;
+	padding: 4px;
+}
+
+.post-content img.alignright {
+	float: right;
+	border: 1px solid #EFEFEF;
+	margin: 0 0 15px 25px;
+	padding: 4px;
+}
+
+.post-content ul,.post-content ol {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.post-content ul {
+	list-style: outside;
+}
+
+.post-content ol {
+	list-style: decimal;
+}
+
+.post-content ul li,.post-content ol li {
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+
+.more-link {
+	font-weight: 700;
+	display: block;
+	margin-top: 10px;
+}
+
+.section-title {
+	font-size: 140%;
+	margin-bottom: 10px;
+}
+
+.navleft {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.navright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.navigation div a {
+	font-size: 110%;
+}
+
+#comments ol li {
+	margin-top: 2px;
+	border-bottom: 1px solid #F0F0F0;
+	padding: 10px 0;
+	overflow: hidden;
+	height: 1%;
+}
+
+.comment-gravatar {
+	float: left;
+	margin-right: 10px;
+	background: #FFF;
+	border: 1px solid #F0F0F0;
+	padding: 3px;
+}
+
+.comment-data {
+	float: left;
+	width: 400px;
+}
+
+.comment-data p {
+	margin-bottom: 6px;
+	line-height: 1.3;
+}
+
+.comment-author {
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+.comment-meta {
+	color: #666;
+	margin-bottom: 5px;
+	font-size: 85%;
+}
+
+.unapproved {
+	font-style: italic;
+}
+
+#respond {
+	margin-top: 30px;
+}
+
+#comment-form {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#comment-form label {
+	font-size: 90%;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#comment-form input {
+	width: 240px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#comment-form textarea {
+	width: 455px;
+	height: 200px;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	padding: 10px;
+}
+
+#sidebar {
+	float: right;
+	width: 300px;
+}
+
+.sidepanel {
+	margin-bottom: 30px;
+}
+
+.sidepanel h3 {
+	text-transform: uppercase;
+	border-bottom: 1px solid #EFEFEF;
+	padding: 0 0 5px 0;
+	color: #333333;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.sidepanel ul li {
+	border-bottom: 1px solid #EFEFEF;
+	padding: 5px 0;
+	line-height: 1.2;
+}
+
+.sidepanel p {
+	margin-top: 8px;
+	line-height: 1.3;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 840px;
+	height: 20px;
+	border-top: 1px solid #EAEAEA;
+	padding: 20px;
+}
+
+#footer-links {
+	list-style: none;
+}
+
+#footer-links li {
+	float: left;
+	margin-right: 15px;
+}
+
+.probp-logo {
+float:right;
+margin:-14px 15px 15px;
+}
+
+.sep {
+	color: #CCC;
+	margin: 0 8px;
+}
+
+.ico-small {
+	vertical-align: middle;
+	margin: 0 5px 2px 0;
+}

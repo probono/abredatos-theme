@@ -1,0 +1,669 @@
+/* @font-face {
+	font-family: 'AvenirLTStd45Book';
+	src: url('AvenirLTStd-Book.eot');
+	src: local('Avenir LT Std'), local('AvenirLTStd-Book'), url('AvenirLTStd-Book.woff') format('woff'), url('AvenirLTStd-Book.otf') format('opentype'), url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+}*/
+
+@font-face {
+	font-family: 'AvenirLTStd95Black';
+	src: local('Avenir LT Std 95 Black');
+}
+
+
+@font-face {
+	font-family: 'AvenirLTStd35Light';
+	src: local('Avenir LT Std 35 Light');
+}
+
+@font-face {
+	font-family: 'AvenirLTStd55Roman';
+	src: local('Avenir LT Std 55 Roman');
+}
+
+
+a img { border: 0; }
+a { color: #F04C11; background-color: transparent; font-weight:bold}
+p { margin-top: 0; }
+form { margin: 0; }
+input, textare { font-size: 1em; font-family: inherit; }
+
+.ico { position: absolute; background-repeat: no-repeat; background-position: 0 50%; padding: 2px 0 2px 20px; }
+.ico.ico_round_arrow { background-image: url(images/ico/round_arrow.png); }
+
+.fieldbox { background-color: #e3e4e7; color: #000; border: 1px solid #67686c; font-size: 1em; padding: 2px 4px; }
+.fieldbox.wide { width: 95%; }
+
+
+/* LAYOUT */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f1f5;
+  color: #2C2626;
+  font: 16px/1.4em Arial, sans-serif;
+}
+
+#wrapper {
+  position: relative;
+  width: 720px;
+  padding-left: 230px;
+  padding-right: 100px;
+  font-size: 67%;
+  line-height: 1.2em;
+  min-height: 100%; height: auto !important; height: 100%;
+  margin: 0 auto -380px auto;
+}
+#footer, #footer_push {
+  height: 380px;
+}
+
+#logo {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  margin-left: -510px;
+}
+
+#menu {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+  #menu #menu_participa {
+    position: absolute;
+    right: 1px;
+    top: 0;
+    width: 239px;
+    height: 54px;
+    background: url(images/layout/header_participa.png) no-repeat 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  #menu #menu_participa:hover {
+    background-position: 0 100%;  
+  }
+
+  #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #menu li {
+    float: left; display: inline;
+    margin-right: 1px;
+  }
+  #menu li a {
+
+
+background-color:#333333;
+color:#F0F1F2;
+display:inline;
+float:left;
+font-size:112%;
+line-height:20px;
+padding:33px 2px 1px 7px;
+text-decoration:none;
+width:70px;
+  }
+  
+  #menu li a:hover, #menu li.active a, #menu li.current_page_item a{
+    background-color: #f04e10;
+    color: #F0F1F2;
+  }
+
+.header_description {
+  margin-bottom: 25px;
+  font-size: 261.3%;
+  line-height: 1.1em;
+  padding: 10px;
+  background: url(images/bg/diagonal_pattern.png) repeat;
+  font-family:AvenirLTStd95Black, Arial, Helvetica;
+}    
+  .header_description strong {
+    font-weight: normal;
+    color: #F04C11;
+    background-color: transparent;
+  }
+  
+.submenu {
+  border-top: 8px solid #333;
+  border-bottom: 8px solid #333;
+  margin-bottom: 25px;
+}
+  .submenu ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  } 
+  .submenu li {
+    float: left; display: inline;
+    margin: 10px 5px;
+    font-size: 120%;
+    line-height: 1.2em;
+  } 
+  .submenu li a {
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 1px 6px;
+    color: #2C2626;
+    background-color: transparent;
+  }
+  .submenu li a:hover, .submenu li.active a {
+    color: #fff;
+    background-color: #f04e10;
+  }
+  
+.mainareas {
+  overflow: hidden;
+  border-top: 8px solid #333;
+  border-bottom: 8px solid #333;  margin-bottom: 15px;
+}
+  .mainareas ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .mainareas li {
+    float: left; display: inline;
+    width: 30.33%;
+    padding: 10px 1.5%;
+    height: 150px;
+    background-color: #fff;
+    color: inherit;
+  }
+  .mainareas li:hover, .mainareas li.active {
+    background-color: transparent;
+    color: inherit;
+  }
+  .mainareas .title {
+    margin: 0 0 5px 0;
+    padding: 0 0 2px 0;
+    font-size: 140%;
+    line-height: 1.2em;
+    border-bottom: 1px dotted #dbdbdb;
+    font-weight: normal;
+    font-family:AvenirLTStd95Black, Arial, Helvetica;
+  }      
+  .mainareas .subtitle {
+    margin-bottom: 5px;
+    font-size: 140%;
+    line-height: 1.2em;
+    font-family:AvenirLTStd35Light, Arial, Helvetiva;
+  }
+  .mainareas .more {
+    font-size: 120%;
+    line-height: 1.2em;
+  }
+  .mainareas .more a {
+    text-decoration: none;
+  }
+  .mainareas .more a:hover {
+    text-decoration: underline;
+  } 
+
+#footer {
+  position: relative;
+  font-size: 62.5%;
+}
+#footer_content {
+  margin-top: 25px;
+  background: #fff;
+  color: inherit;
+}
+
+
+  #footer_share {
+    margin-bottom: 10px;
+    background: #333;
+    color: #F0F1F2;
+    line-height: 34px;
+    font-size: 110%;
+  }
+    #footer_share_content { 
+      margin: auto; 
+      width: 700px;
+      padding-left: 250px;
+      background: url(images/ico/round_arrow_white.png) no-repeat 230px 50%;
+    }
+    #footer_share_content .spacer {
+      margin: 0 10px;
+    } 
+    #footer_share_content .footer_share_link {
+      margin-right: 24px;
+      padding: 5px 30px 5px 0;
+      text-decoration: none;
+      color: #F0F1F2;
+      background-color: transparent;
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+    }
+    #footer_share_content .footer_share_link:hover {
+      text-decoration: underline;
+    }
+    #footer_share_content .share_mail {
+      background-image: url(images/layout/footer_ico_mail.png);
+    }
+    #footer_share_content .share_twitter {
+      background-image: url(images/layout/footer_ico_twitter.png);
+    }
+    #footer_share_content .share_facebook {
+      background-image: url(images/layout/footer_ico_facebook.png);
+    }
+
+
+
+  #footer_partners {
+    overflow: hidden;
+    margin: auto; 
+    width: 720px;
+    padding-left: 230px;
+    margin-bottom: 10px;
+    font-size: 120%;
+    line-height: 1.2em;
+  }
+    #footer_partners .title {
+      font-weight: bold;
+    }
+
+    #footer_organizador {
+      float: left; display: inline;
+      margin-left: -230px;
+      width: 230px;
+      border-right: 1px solid #e2e2e2;
+    }
+    
+    #footer_patrocinadores {
+      float: left; display: inline;
+      border-left: 1px solid #e2e2e2;
+      margin-left: -1px;
+      padding-left: 35px;
+      width: 683px;
+    }
+      #footer_patrocinadores ul {
+        overflow: hidden;
+        margin: 0 0 0 -5px;
+        padding: 0;
+        list-style-type: none
+      }
+      #footer_patrocinadores li {
+        float: left; display: inline;
+        width: 167px;
+        height: 167px;
+        margin: 5px 0 0 5px;
+      }
+
+  #footer_links {
+    background: #F04E10;
+    color: #F0F1F2;
+    line-height: 34px;
+    font-size: 110%;
+  }
+    #footer_links_content { 
+      margin: auto; 
+      width: 710px;
+      padding-left: 240px;
+    }
+    #footer_links_content a {
+      color: #F0F1F2;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    #footer_links_content a:hover {
+      text-decoration: underline;
+    }
+    
+    #footer_links_content .author {
+      float: right; display: inline;
+    }
+    #footer_links_content #footer_participa {
+      position: absolute;
+      margin: 8px 0 0 5px;
+      width: 169px;
+      height: 53px;
+      overflow: hidden;
+      text-indent: -9999px;
+      background: url(images/layout/footer_participa.png) no-repeat 0 0;
+    }
+    #footer_links_content #footer_participa:hover {
+      background-position: 0 100%;
+    }
+
+
+/* PAGEBODY */
+  
+#container {
+  overflow: hidden;
+  width: 100%;
+}
+  #content {
+    float: left; display: inline;
+    width: 445px;
+    padding: 15px 25px 15px 10px;
+    background: #fff;
+    color: inherit;
+    font-size: 130%;
+    line-height: 1.3em;
+  }
+  #sidebar {
+    float: right; display: inline;
+    width: 206px;
+  } 
+
+
+
+/* SIDEBAR */
+.side_spacer { margin: 20px 0; height: 0; border: 0; border-bottom: 1px dotted #333; overflow: hidden; background-color: transparent; color: inherit; }
+
+.claim_patrocina {
+  overflow: hidden;
+  font-size: 28px;
+  line-height: 1.1em;
+}
+  .claim_patrocina span, .claim_patrocina strong {
+    float: left; display: inline;
+    margin-bottom: 3px;
+    padding: 2px 5px;
+  }
+  .claim_patrocina span {
+    background-color: #333;
+    color: #fff;
+  } 
+  .claim_patrocina strong {
+    font-weight: normal;
+    background-color: #333;
+    color: #F04D11;
+  }                    
+  .claim_patrocina span.first {
+    background-image: url(images/ico/round_arrow_orange.png);
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    padding-left: 40px;
+  }  
+  .claim_patrocina a{
+    text-decoration: none;
+  }
+  
+.module_contribuye {
+  margin-bottom: 30px;
+}
+  .module_contribuye h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 54px;
+    background: url(images/layout/sidebar/contribuye_title.png) no-repeat 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    
+  }
+  .module_contribuye ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }  
+  .module_contribuye li {
+    margin-top: 4px;
+    background: #333;
+    color: #fff;
+    font-size: 150.6%;
+    line-height: 1.2em;
+    padding: 6px 12px;
+font-family: AvenirLTStd55Roman, Arial, Helvetica;
+  }
+  .module_contribuye .more {
+    margin-top: 10px;
+  }
+  .module_contribuye .more a {
+    display: block;
+    width: 101px;
+    height: 46px;
+    text-decoration: none;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-left: 55px;
+    background: url(images/layout/sidebar/contribuye_masinfo.png) no-repeat 0 0;
+  }
+  .module_contribuye .more a:hover {
+    background-position: 0 100%;
+  }    
+  
+
+.module_suscripcion {
+}
+  .module_suscripcion h2 {
+    font-size: 180%;
+    line-height: 1.2em;
+    margin: 0 0 0 0;
+    padding: 0;
+    font-weight: normal;
+    text-align: center;
+font-family:AvenirLTStd95Black;
+  }
+  .module_suscripcion label {
+    display: block;
+    margin: 0 0 5px 0;
+    font-size: 120%;
+    line-height: 1.2em;
+    text-align: center;
+  }
+  .module_suscripcion .fieldbox {
+    font-size: 120%;
+  }  
+.module_suscripcion form {
+line-height:0;
+}
+
+
+  .module_suscripcion .form_actions {
+    margin-top: 5px;
+    text-align: center;
+  }
+  .module_suscripcion .form_actions input  {
+    text-indent: -9999px;
+    background: url(images/button/ok.png) no-repeat 0 0;
+    border: 0;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .module_suscripcion .form_actions input:hover {
+    background-position: 0 100%;
+  } 
+
+.sidepanel .textwidget {
+text-align:center;
+}
+
+
+/* CONTENT */
+.page-subtitle {
+  margin: -15px -25px 15px -10px;
+  padding: 0;
+  background: #f0f1f5;
+  overflow: hidden;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1em;
+}
+  .page-subtitle span {
+    float: left; display: inline;
+    padding: 5px 10px 0 10px;
+    color: #999;
+    background-color: #fff;
+    text-transform: uppercase;
+  }  
+
+
+/* POST */
+.post {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+  .post .post-title {
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+    line-height: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .post .post-title a {
+    color: #2C2626;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .post .post-title a:hover {
+    color: #f04e10;
+    background-color: transparent;
+  }
+  .post .post-meta {
+    color: #999;
+    background: transparent url(images/bg/mini_spacer.png) no-repeat 0 100%;
+    text-transform: uppercase;
+    font-size: 90%;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .post .post-meta .sep {
+    padding: 0 4px;
+  }  
+  .post .post-meta a {
+    color: #2C2626;
+    background-color: transparent; 
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+  }  
+  .post .post-meta a:hover {
+    text-decoration: underline; 
+  }
+  .post .post-content a {
+    color: #2C2626;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .post .post-content a:hover {
+    color: #f04e10;
+    background-color: transparent;
+  }      
+  .post .post-content a.more-link {
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 90%;
+    line-height: 1.2em;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #f04e10;
+    background-color: transparent;
+    font-weight: normal;
+  }
+  .post .post-content a.more-link:hover {
+    text-decoration: underline;
+  }    
+  .post .post-content blockquote {
+    background: url(images/quotes.gif) no-repeat 10px 0;
+    margin: 1em 0;
+    padding: 0 0 0 60px;
+    font-style: italic;
+  }  
+  
+  
+
+/* COMMENTS */
+
+#comments {
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+  #comments h2 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: right;
+    font-style: italic;
+    letter-spacing: -1px;
+  }
+  #comments ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  #comments ol li {
+    margin-bottom: 1em;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 1em;
+    overflow: hidden;
+    padding-left: 80px;
+  }       
+  #comments ol li .comment-gravatar {
+    float: left; display: inline;
+    margin-left: -80px;
+  }
+  #comments ol li .comment-author, #comments ol li .comment-meta {
+    display: inline;
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
+  #comments ol li .comment-author {
+    font-weight: bold;
+  }
+  #comments ol li .comment-meta {
+    color: #999;
+    background-color: transparent;
+  } 
+  #comments ol li p {
+    margin: 0.3em 0 0.7em 0;
+  } 
+  
+#respond {
+  margin: 25px 0 0 0;
+  font-size: 90%;
+  line-height: 1.2em;
+}
+  #respond h2 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    padding: 0;
+  }
+  #respond #comment-form {
+    margin-bottom: 15px;
+  }
+  #respond label {
+    display: block;
+  }  
+  #respond #comment-form input, #respond #comment-form textarea {
+    font-size: 1em;
+    font-family: inherit;
+    width: 75%;
+    padding: 2px;
+    border: 1px solid #ccc;
+  }
+  #respond #comment-form textarea {
+    width: 95%;
+  }
+  #respond #submit {
+    border: 0;
+    padding: 2px 10px;
+    overflow: visible;
+    background-color: #f04e10;
+    color: #fff;
+    cursor: pointer;
+  }    
+  #respond #submit:hover {
+    background-color: #333;
+    color: #fff;
+  }    
