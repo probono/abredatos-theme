@@ -5,19 +5,19 @@
 }*/
 
 @font-face {
-	font-family: 'AvenirLTStd95Black';
+	font-family: 'AvenirLTStd-Black';
 	src: url('AvenirLTStd-Black.eot');
 	src: local('Avenir LT Std 95 Black'), local('AvenirLTStd-Black'), url('AvenirLTStd-Black.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'AvenirLTStd35Light';
+	font-family: 'AvenirLTStd-Light';
 	src: url('AvenirLTStd-Light.eot');
 	src: local('Avenir LT Std 35 Light'), local('AvenirLTStd-Light'), url('AvenirLTStd-Light.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'AvenirLTStd55Roman';
+	font-family: 'AvenirLTStd-Roman';
 	src: url('AvenirLTStd-Roman.eot');
 	src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'), url('AvenirLTStd-Roman.otf') format('opentype');
 }
@@ -123,7 +123,7 @@ width:70px;
   line-height: 1.1em;
   padding: 10px;
   background: url(images/bg/diagonal_pattern.png) repeat;
-  font-family:AvenirLTStd95Black, Arial, Helvetica;
+  font-family:AvenirLTStd-Black, Arial, Helvetica;
 }    
   .header_description strong {
     font-weight: normal;
@@ -189,13 +189,13 @@ width:70px;
     line-height: 1.2em;
     border-bottom: 1px dotted #dbdbdb;
     font-weight: normal;
-    font-family:AvenirLTStd95Black, Arial, Helvetica;
+    font-family:AvenirLTStd-Black, Arial, Helvetica;
   }      
   .mainareas .subtitle {
     margin-bottom: 5px;
     font-size: 140%;
     line-height: 1.2em;
-    font-family:AvenirLTStd35Light, Arial, Helvetiva;
+    font-family:AvenirLTStd-Light, Arial, Helvetiva;
   }
   .mainareas .more {
     font-size: 120%;
@@ -415,7 +415,7 @@ width:70px;
     font-size: 150.6%;
     line-height: 1.2em;
     padding: 6px 12px;
-font-family: AvenirLTStd55Roman, Arial, Helvetica;
+font-family: AvenirLTStd-Roman, Arial, Helvetica;
   }
   .module_contribuye .more {
     margin-top: 10px;
@@ -444,7 +444,7 @@ font-family: AvenirLTStd55Roman, Arial, Helvetica;
     padding: 0;
     font-weight: normal;
     text-align: center;
-    font-family:AvenirLTStd95Black, Arial, Helvetica;;
+    font-family:AvenirLTStd-Black, Arial, Helvetica;;
   }
   .module_suscripcion label {
     display: block;
