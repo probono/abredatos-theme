@@ -6,19 +6,19 @@
 
 @font-face {
 	font-family: 'AvenirLTStd95Black';
-	src: url('AvenirLTStd-Black');
+	src: url('AvenirLTStd-Black.eot');
 	src: local('Avenir LT Std 95 Black'), local('AvenirLTStd-Black'), url('AvenirLTStd-Black.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'AvenirLTStd35Light';
-	src: url('AvenirLTStd-Light');
+	src: url('AvenirLTStd-Light.eot');
 	src: local('Avenir LT Std 35 Light'), local('AvenirLTStd-Light'), url('AvenirLTStd-Light.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'AvenirLTStd55Roman';
-	src: url('AvenirLTStd-Roman');
+	src: url('AvenirLTStd-Roman.eot');
 	src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'), url('AvenirLTStd-Roman.otf') format('opentype');
 }
 
