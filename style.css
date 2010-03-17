@@ -6,20 +6,21 @@
 
 @font-face {
 	font-family: 'AvenirLTStd95Black';
-	src: local('Avenir LT Std 95 Black');
+	src: url('AvenirLTStd-Black');
+	src: local('Avenir LT Std 95 Black'), local('AvenirLTStd-Black'), url('AvenirLTStd-Black.otf') format('opentype');
 }
-
 
 @font-face {
 	font-family: 'AvenirLTStd35Light';
-	src: local('Avenir LT Std 35 Light');
+	src: url('AvenirLTStd-Light');
+	src: local('Avenir LT Std 35 Light'), local('AvenirLTStd-Light'), url('AvenirLTStd-Light.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'AvenirLTStd55Roman';
-	src: local('Avenir LT Std 55 Roman');
+	src: url('AvenirLTStd-Roman');
+	src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'), url('AvenirLTStd-Roman.otf') format('opentype');
 }
-
 
 a img { border: 0; }
 a { color: #F04C11; background-color: transparent; font-weight:bold}
@@ -443,7 +444,7 @@ font-family: AvenirLTStd55Roman, Arial, Helvetica;
     padding: 0;
     font-weight: normal;
     text-align: center;
-font-family:AvenirLTStd95Black;
+    font-family:AvenirLTStd95Black, Arial, Helvetica;;
   }
   .module_suscripcion label {
     display: block;
