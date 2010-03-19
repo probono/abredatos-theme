@@ -29,6 +29,7 @@
     <ul>         
       <li><a href="/">Home</a></li>
       <?php wp_list_pages('title_li=&depth=1'); ?>
+      <?php wp_list_bookmarks('title_li=&categorize=0'); ?>
     </ul>
     <a id="menu_participa" href="#"><strong>Participa</strong></a>
   </div>
