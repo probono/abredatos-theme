@@ -44,7 +44,7 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background: #f0f1f5;
+  background: url(images/bg/diagonal_pattern.png) repeat-x scroll 0 456px #F0F1F5;
   color: #2C2626;
   font: 16px/1.4em Arial, sans-serif;
 }
@@ -121,15 +121,16 @@ width:70px;
   margin-bottom: 25px;
   font-size: 261.3%;
   line-height: 1.1em;
-  padding: 10px;
-  background: url(images/bg/diagonal_pattern.png) repeat;
+  padding:8px 10px 6px;
+  background:url(images/bg/diagonal_pattern.png) repeat-x scroll 0 0 transparent;
   font-family:AvenirLTStd-Black, Arial, Helvetica;
-}    
-  .header_description strong {
-    font-weight: normal;
-    color: #F04C11;
-    background-color: transparent;
-  }
+}
+
+.header_description strong {
+  font-weight: normal;
+  color: #F04C11;
+  background-color: transparent;
+}
   
 .submenu {
   border-top: 8px solid #333;
