@@ -126,6 +126,10 @@ width:70px;
   font-family:AvenirLTStd-Black, Arial, Helvetica;
 }
 
+.header_description.short {
+  font-size:330%;
+}
+
 .header_description strong {
   font-weight: normal;
   color: #F04C11;

@@ -38,7 +38,7 @@
 <?php // modulos  ?>
 
   <?php if (is_single() OR is_page()): ?>
-    <div class="header_description">Haz de tu gobierno una entidad mejor, más <strong>transparente y creativa.</strong> Y de paso hazte famoso y consigue algo de dinero.</div>
+    <div class="header_description short">Haz de tu gobierno una entidad mejor, más <strong>transparente y creativa.</strong> Y de paso hazte famoso y consigue algo de dinero.</div>
   <?php else: ?>
     <div class="header_description">El <strong>Desafío AbreDatos 2010</strong> es un concurso de 48 horas para el desarrollo exprés de servicios tecnológicos al ciudadano basados en el uso de datos públicos.</div>
     <div class="mainareas">
