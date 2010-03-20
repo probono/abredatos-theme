@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-	<div id="content">
+	<div id="content" class="no-title">
 
 		<div id="post-0" class="post error404">
 			<h2 class="post-title">Not Found</h2>

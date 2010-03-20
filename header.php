@@ -27,7 +27,7 @@
 
   <div id="menu">
     <ul>         
-      <li><a href="/">Home</a></li>
+      <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
       <?php wp_list_pages('title_li=&depth=1'); ?>
       <?php wp_list_bookmarks('title_li=&categorize=0'); ?>
     </ul>

@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-  <div id="content">
+  <div id="content" class="no-title">
 
     <?php the_post(); ?>
     <div id="post-<?php the_ID() ?>" class="post">
