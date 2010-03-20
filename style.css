@@ -183,7 +183,7 @@ width:70px;
     background-color: #fff;
     color: inherit;
   }
-  .mainareas li:hover, .mainareas li.active {
+  .mainareas li.active {
     background-color: transparent;
     color: inherit;
   }

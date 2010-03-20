@@ -40,9 +40,9 @@
           <ul>   
             <!--
             <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/tu.png" alt="Tú puedes patrocinar el desafío Abre Datos 2010" /></a></li>-->
-            <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
-            <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
-            <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
+            <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
+            <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
+            <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
           </ul>
         </div>
     </div> <!-- /#footer_partners --> 
@@ -50,7 +50,7 @@
     <div id="footer_links">
       <div id="footer_links_content">
         <span class="author">Diseño: <a href="http://www.bienaventurado.net">www.bienaventurado.net</a></span>
-        <a href="#" class="footer_menu_link link_contact">Contacto</a> |
+        <a href="mailto:info@abredatos.es" class="footer_menu_link link_contact">Contacto</a> |
         <a href="/dudas" class="footer_menu_link link_help">Ayuda</a> |
         <a href="#" id="footer_participa">Participa</a>
       </div>
