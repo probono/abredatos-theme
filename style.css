@@ -1,25 +1,19 @@
-/* @font-face {
-	font-family: 'AvenirLTStd45Book';
-	src: url('AvenirLTStd-Book.eot');
-	src: local('Avenir LT Std'), local('AvenirLTStd-Book'), url('AvenirLTStd-Book.woff') format('woff'), url('AvenirLTStd-Book.otf') format('opentype'), url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
-}*/
-
 @font-face {
 	font-family: 'AvenirLTStd-Black';
 	src: url('AvenirLTStd-Black.eot');
-	src: local('Avenir LT Std 95 Black'), local('AvenirLTStd-Black'), url('AvenirLTStd-Black.otf') format('opentype');
+	src: local('☺'), url('AvenirLTStd-Black.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'AvenirLTStd-Light';
 	src: url('AvenirLTStd-Light.eot');
-	src: local('Avenir LT Std 35 Light'), local('AvenirLTStd-Light'), url('AvenirLTStd-Light.otf') format('opentype');
+	src: local('☺'), url('AvenirLTStd-Light.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'AvenirLTStd-Roman';
 	src: url('AvenirLTStd-Roman.eot');
-	src: local('Avenir LT Std 55 Roman'), local('AvenirLTStd-Roman'), url('AvenirLTStd-Roman.otf') format('opentype');
+	src: local('☺'), url('AvenirLTStd-Roman.otf') format('opentype');
 }
 
 a img { border: 0; }
