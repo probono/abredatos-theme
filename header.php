@@ -55,7 +55,7 @@
         </li>
         <li>
           <h2 class="title">PARTICIPA</h2>
-          <div class="subtitle">Participa y demuestra la utilidad de disponer de dato</div>
+          <div class="subtitle">Participa y demuestra la utilidad de disponer de datos abiertos</div>
           <div class="more"><a href="/participa" class="ico ico_round_arrow">+info</a></div>
         </li>
       </ul>
