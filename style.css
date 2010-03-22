@@ -361,6 +361,15 @@ width:70px;
     float: right; display: inline;
     width: 206px;
   } 
+  
+  #content ul {
+    padding-left: 15px;
+  }
+  
+  #content li {
+    padding-left: 2px;
+    margin-bottom: 0.5em;
+  }
 
 
 
