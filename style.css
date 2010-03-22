@@ -370,6 +370,11 @@ width:70px;
     padding-left: 2px;
     margin-bottom: 0.5em;
   }
+  
+  #content h2 {
+    font-family:AvenirLTStd-Black,Arial,Helvetica;
+    font-weight:normal;
+  }
 
 
 
