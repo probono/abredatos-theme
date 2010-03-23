@@ -37,12 +37,11 @@
         </div>
         <div id="footer_patrocinadores">
           <div class="title">Patrocina:</div>
-          <ul>   
-            <!--
-            <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/tu.png" alt="Tú puedes patrocinar el desafío Abre Datos 2010" /></a></li>-->
-            <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
-            <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
-            <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li>
+          <ul>            
+            <li><a href="http://derecho.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/derechocom.png" alt="" /></a></li>
+            <li><a href="http://ideup.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/ideup.png" alt="" /></a></li>
+            <!-- <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/tu.png" alt="Tú puedes patrocinar el desafío Abre Datos 2010" /></a></li> -->
+            <!-- <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li> -->
           </ul>
         </div>
     </div> <!-- /#footer_partners --> 
