@@ -285,17 +285,24 @@ width:70px;
       padding-left: 35px;
       width: 683px;
     }
+    #footer_patrocinadores ul.plata {
+      margin-top: 15px;
+    }
+    
+    #footer_patrocinadores ul.bronce {
+      margin-bottom: 20px;
+    }
       #footer_patrocinadores ul {
         overflow: hidden;
-        margin: 0 0 0 -5px;
+        margin: 5px 0 0;
         padding: 0;
         list-style-type: none
       }
       #footer_patrocinadores li {
         float: left; display: inline;
-        width: 167px;
-        height: 167px;
-        margin: 5px 25px 0 5px;
+        margin: 0px 25px 0 0;
+        width:215px;
+        text-align:center;
       }
 
   #footer_links {

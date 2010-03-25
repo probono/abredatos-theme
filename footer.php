@@ -37,9 +37,14 @@
         </div>
         <div id="footer_patrocinadores">
           <div class="title">Patrocina:</div>
-          <ul>            
+          <ul class="plata">
+            <li><a href="http://euskadi.net"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/gv.png" alt="" /></a></li>
+          </ul>
+          <ul class="bronce">            
             <li><a href="http://derecho.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/derechocom.png" alt="" /></a></li>
             <li><a href="http://ideup.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/ideup.png" alt="" /></a></li>
+            <li><a href="http://www.aecem.org"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/aecem.png" alt="" /></a></li>
+            <li><a href="http://aspgems.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/aspgems.png" alt="" /></a></li>
             <!-- <li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/patrocinadores/tu.png" alt="Tú puedes patrocinar el desafío Abre Datos 2010" /></a></li> -->
             <!-- <li><a href="/patrocina"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/layout/__167x167.png" alt="" /></a></li> -->
           </ul>
