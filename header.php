@@ -46,7 +46,7 @@
         <li>
           <h2 class="title">ABRE DATOS</h2>
           <div class="subtitle">Los datos públicos deben ser abiertos</div>
-          <div class="more"><a href="/acerca-de/#objetivos" class="ico ico_round_arrow">Descubre por qué</a></div>
+          <div class="more"><a href="/el-desafio/#objetivos" class="ico ico_round_arrow">Descubre por qué</a></div>
         </li>
         <li class="active">
           <h2 class="title">TRABAJO EN EQUIPO</h2>
