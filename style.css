@@ -227,7 +227,7 @@ width:70px;
   }
     #footer_share_content { 
       margin: auto; 
-      width: 700px;
+      width: 800px;
       padding-left: 250px;
       background: url(images/ico/round_arrow_white.png) no-repeat 230px 50%;
     }
@@ -261,7 +261,7 @@ width:70px;
   #footer_partners {
     overflow: hidden;
     margin: auto; 
-    width: 720px;
+    width: 820px;
     padding-left: 230px;
     margin-bottom: 10px;
     font-size: 120%;
@@ -314,7 +314,7 @@ width:70px;
     #footer_links_content { 
       margin: auto; 
       width: 710px;
-      padding-left: 240px;
+      padding-left: 140px;
     }
     #footer_links_content a {
       color: #F0F1F2;
